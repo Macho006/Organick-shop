@@ -1,0 +1,13 @@
+.wishlist-btn svg {
+    transition: transform .15s ease, color .15s ease;
+}
+
+.wishlist-btn.is-wish svg {
+    transform: scale(1.05);
+    color: #e11d48;
+}
+
+/* red-600 */
+.wishlist-btn.is-wish i {
+    color: red !important;
+}
