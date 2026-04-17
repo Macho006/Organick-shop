@@ -28,10 +28,10 @@
 
 
     <main>
-        <section class="container mx-auto p-4 flex justify-center mt-[90px]">
-            <div id="productsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <section class="container mx-auto px-4 mt-[90px]">
+            <div id="productsGrid" class="w-full max-w-[1120px] mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8 justify-items-center">
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                     data-id="1" data-title="Calabrese Broccoli" data-price="13.00" data-old-price="20.00"
                     data-category="Vegetable" data-image="/image/broccoli.svg">
 
@@ -42,17 +42,17 @@
 
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Vegetable</span>
-                    <div class="flex justify-center">
-                        <img src="/image/broccoli.svg" alt="Calabrese Broccoli" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/broccoli.svg" alt="Calabrese Broccoli" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">Calabrese Broccoli</h2>
-                        <div class="flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">Calabrese Broccoli</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$13.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                     data-id="2" data-title="Fresh Banana Fruites" data-price="14.00" data-old-price="20.00"
                     data-category="Fresh" data-image="/image/banana.svg">
 
@@ -72,17 +72,17 @@
 
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Fresh</span>
-                    <div class="flex justify-center">
-                        <img src="/image/banana.svg" alt="Banana" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/banana.svg" alt="Banana" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">Fresh Banana Fruites</h2>
-                        <div class="flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">Fresh Banana Fruites</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$14.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                     data-id="3" data-title="White Nuts" data-price="15.00" data-old-price="20.00"
                     data-category="Millets" data-image="/image/nuts.svg">
 
@@ -102,17 +102,17 @@
 
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Millets</span>
-                    <div class="flex justify-center">
-                        <img src="/image/nuts.svg" alt="White Nuts" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/nuts.svg" alt="White Nuts" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">White Nuts</h2>
-                        <div class="flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">White Nuts</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$15.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                     data-id="4" data-title="Vegan Red Tomato" data-price="17.00" data-old-price="20.00"
                     data-category="Vegetable" data-image="/image/tomato.svg">
                     <button
@@ -130,17 +130,17 @@
                     </button>
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Vegetable</span>
-                    <div class="flex justify-center">
-                        <img src="/image/tomato.svg" alt="Tomato" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/tomato.svg" alt="Tomato" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">Vegan Red Tomato</h2>
-                        <div class="flex-col lg:flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">Vegan Red Tomato</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$17.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i>
@@ -149,7 +149,7 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                     data-id="5" data-title="Mung Bean" data-price="11.00" data-old-price="20.00" data-category="Health"
                     data-image="/image/mung.svg">
                     <button
@@ -158,17 +158,17 @@
                     </button>
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Health</span>
-                    <div class="flex justify-center">
-                        <img src="/image/bean.svg" alt="Mung Bean" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/bean.svg" alt="Mung Bean" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">Mung Bean</h2>
-                        <div class="flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">Mung Bean</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$11.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i>
@@ -177,7 +177,7 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                     data-id="6" data-title="Brown Hazelnut" data-price="12.00" data-old-price="20.00"
                     data-category="Nuts" data-image="/image/hazelnut.svg">
                     <button
@@ -186,17 +186,17 @@
                     </button>
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Nuts</span>
-                    <div class="flex justify-center">
-                        <img src="/image/hazelnut.svg" alt="Brown Hazelnut" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/hazelnut.svg" alt="Brown Hazelnut" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">Brown Hazelnut</h2>
-                        <div class="flex-col lg:flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">Brown Hazelnut</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$12.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i>
@@ -205,7 +205,7 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                     data-id="7" data-title="Eggs" data-price="17.00" data-old-price="20.00" data-category="Fresh"
                     data-image="/image/eggs.svg">
                     <button
@@ -214,17 +214,17 @@
                     </button>
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Fresh</span>
-                    <div class="flex justify-center">
-                        <img src="/image/eggs.svg" alt="Eggs" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/eggs.svg" alt="Eggs" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">Eggs</h2>
-                        <div class="flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">Eggs</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$17.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i>
@@ -233,7 +233,7 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                     data-id="8" data-title="Zelco Suji Elaichi Rusk" data-price="15.00" data-old-price="20.00"
                     data-category="Fresh" data-image="/image/rusk.svg">
                     <button
@@ -242,17 +242,17 @@
                     </button>
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Fresh</span>
-                    <div class="flex justify-center">
-                        <img src="/image/rusk.svg" alt="Rusk" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/rusk.svg" alt="Rusk" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">Zelco Suji Elaichi Rusk</h2>
-                        <div class="flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">Zelco Suji Elaichi Rusk</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$15.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i>
@@ -261,7 +261,7 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                     data-id="9" data-title="Mung Bean" data-price="16.00" data-old-price="20.00" data-category="Fruits"
                     data-image="/image/mungbean.svg">
                     <button
@@ -270,17 +270,17 @@
                     </button>
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Fruits</span>
-                    <div class="flex justify-center">
-                        <img src="/image/mungbean.svg" alt="Grapes" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/mungbean.svg" alt="Grapes" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">Mung Bean</h2>
-                        <div class="flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">Mung Bean</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$16.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i>
@@ -289,7 +289,7 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                     data-id="10" data-title="White Hazelnut" data-price="12.00" data-old-price="20.00"
                     data-category="Nuts" data-image="/image/whitehazelnut.svg">
                     <button
@@ -298,17 +298,17 @@
                     </button>
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Nuts</span>
-                    <div class="flex justify-center">
-                        <img src="/image/whitehazelnut.svg" alt="Grapes" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/whitehazelnut.svg" alt="Grapes" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">White Hazelnut</h2>
-                        <div class="flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">White Hazelnut</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$12.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i>
@@ -317,8 +317,8 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
-                    data-id="9" data-title="Fresh Corn" data-price="17.00" data-old-price="20.00" data-category="Fresh"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+                    data-id="11" data-title="Fresh Corn" data-price="17.00" data-old-price="20.00" data-category="Fresh"
                     data-image="/image/corn.svg">
                     <button
                         class="wishlist-btn absolute cursor-pointer top-4 right-4 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md transition">
@@ -326,17 +326,17 @@
                     </button>
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Fresh</span>
-                    <div class="flex justify-center">
-                        <img src="/image/corn.svg" alt="Grapes" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/corn.svg" alt="Grapes" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">Fresh Corn</h2>
-                        <div class="flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">Fresh Corn</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$17.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i>
@@ -345,8 +345,8 @@
                     </div>
                 </div>
 
-                <div class="product-card relative w-[285px] h-[323px] lg:w-[335px] lg:h-[483px] rounded-[30px] bg-[#fff] shadow-md overflow-hidden hover:shadow-lg transition duration-300"
-                    data-id="9" data-title="Organic Almonds" data-price="15.00" data-old-price="20.00"
+                <div class="product-card relative flex h-full w-full max-w-[350px] flex-col overflow-hidden rounded-[30px] border border-[#E3E9EC] bg-white shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+                    data-id="12" data-title="Organic Almonds" data-price="15.00" data-old-price="20.00"
                     data-category="Fresh" data-image="/image/almonds.svg">
                     <button
                         class="wishlist-btn absolute cursor-pointer top-4 right-4 bg-white w-10 h-10 rounded-full flex items-center justify-center shadow-md transition">
@@ -354,17 +354,17 @@
                     </button>
                     <span
                         class="inline-block bg-[#274C5B] text-white text-xs font-semibold px-3 py-1 rounded-md m-4">Fresh</span>
-                    <div class="flex justify-center">
-                        <img src="/image/almonds.svg" alt="Grapes" class="h-[124px] lg:h-[324px] object-contain">
+                    <div class="product-media flex min-h-[220px] items-center justify-center px-6 pt-2 pb-5 lg:min-h-[280px]">
+                        <img src="/image/almonds.svg" alt="Grapes" class="h-[180px] w-full object-contain sm:h-[220px] lg:h-[250px]">
                     </div>
-                    <div class="px-7">
-                        <h2 class="text-5 font-semibold text-gray-800">Organic Almonds</h2>
-                        <div class="flex items-center justify-between border-t mt-3 pt-3">
-                            <div class="flex items-center gap-2">
-                                <span class="line-through text-5 text-gray-400">$20.00</span>
+                    <div class="product-body px-7 pb-7">
+                        <h2 class="product-title min-h-[54px] text-[20px] font-semibold leading-[1.35] text-[#274C5B]">Organic Almonds</h2>
+                        <div class="product-meta mt-4 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-4">
+                            <div class="product-prices flex flex-wrap items-center gap-2">
+                                <span class="text-sm line-through text-gray-400">$20.00</span>
                                 <span class="text-teal-800 text-[18px] font-bold">$15.00</span>
                             </div>
-                            <div class="text-yellow-400 flex">
+                            <div class="product-rating flex shrink-0 text-yellow-400">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i>
