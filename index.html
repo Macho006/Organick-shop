@@ -13,12 +13,21 @@
 <body>
     <header>
         <div class="relative bg-[url('/image/header.jpeg')] bg-no-repeat bg-top bg-cover h-[400px]">
-            <nav class="p-4 bg-[rgba(0,0,0,0.4)] backdrop-blur-md absolute top-0 left-0 w-full">
-                <ul class="flex gap-4 justify-end pr-5 text-white items-center">
-                    <li class="cursor-pointer">
-                        <a href="wishlist.html"><i class="fa-solid fa-heart"></i></a>
-                    </li>
-                </ul>
+            <nav class="shop-navbar absolute top-0 left-0 w-full">
+                <div class="shop-navbar__inner">
+                    <a href="index.html" class="shop-brand" aria-label="Organick Home">
+                        <img src="./image/logo.svg" alt="Organick logo">
+                    </a>
+
+                    <div class="shop-nav-actions">
+                        <a href="wishlist.html" class="shop-nav-link" aria-label="Open wishlist">
+                            <span class="shop-nav-link__icon">
+                                <i class="fa-solid fa-heart"></i>
+                            </span>
+                            <span class="shop-nav-link__text">Wishlist</span>
+                        </a>
+                    </div>
+                </div>
             </nav>
             <div class="flex items-center justify-center h-full">
                 <h1 class="text-center text-5xl font-bold text-[#274C5B]">Shop</h1>
